@@ -1,0 +1,10 @@
+REGISTRO DE USO DE IA — NOVO PROJETO PAI
+Data: 18/11/2026
+Usuário: pediu recriação do projeto do zero a partir do briefing e confirmou Serviço público essencial.
+Assistente: propôs cenário municipal fictício e alertou que ground truth deve ser escrito pelo grupo e RAGAS deve ser medido.
+Contribuições da IA: rascunho original de três documentos simulados, código do notebook, perguntas de avaliação sem respostas, documentação e verificações técnicas.
+Ground truth: inicialmente deixado em branco em respeito ao briefing. Depois o usuário informou: "voce pode crialas para mim o professor autorizou". As oito referências foram então redigidas por IA com base nos documentos. A autorização é informada pelo integrante, não verificada independentemente. Não atribuir essas respostas a autoria humana exclusiva.
+Resultados RAGAS: não inventados; arquivo inicial sinaliza ausência de execução.
+Decisões: manter publicações antigas e novas, priorizar vigência, calcular horários com código, limitar agente a seis ferramentas, evitar exposição de chave e dados pessoais.
+Participação humana pendente: revisão substantiva dos documentos, revisão das respostas de referência, entendimento e revisão das decisões, execução no Colab, análise dos resultados e vídeo.
+Este arquivo é um resumo fiel do uso de IA nesta construção, não uma transcrição integral da conversa. Acrescentar os próximos usos e as decisões humanas reais.
