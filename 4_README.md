@@ -10,10 +10,10 @@ Implementação nova preparada. Execução com Ollama Cloud, métricas RAGAS, pr
 
 ## Executar no Colab
 
-1. Abra `1_Notebook_GS2026_2.ipynb` no Google Colab e envie `PAI_NOVO_PREPARACAO.zip` para o painel Arquivos. A primeira célula extrai o pacote em uma pasta própria; também aceita a pasta `2_base_documental` já extraída.
+1. Abra `1_Notebook_GS2026_2.ipynb` como notebook no Google Colab. No painel **Arquivos**, abra a pasta `/content` e envie `PAI_NOVO_PREPARACAO.zip` para dentro dela, sem extrair. O caminho deve ficar `/content/PAI_NOVO_PREPARACAO.zip`, não na raiz `/`. A célula da seção 0 extrai o pacote automaticamente; como alternativa, coloque a pasta já extraída em `/content/2_base_documental`. **Não é necessário conectar o Google Drive:** se adicionou uma célula com `drive.mount`, pode excluí-la.
 2. Adicione `OLLAMA_API_KEY` aos Secrets do Colab e autorize o notebook. Nunca cole a chave no código, em prints ou nesta documentação.
 3. Leia e revise os documentos e as oito respostas `ground_truth` já preenchidas na seção 7. Foram redigidas com IA após o integrante informar autorização do professor, em exceção à regra do briefing. A autorização foi relatada pelo integrante e não verificada independentemente; preserve esse registro de autoria.
-4. Confirme divisão de tarefas e links na seção 0. Use uma sessão nova e execute de cima para baixo. A primeira execução baixa bibliotecas e embeddings.
+4. Confirme divisão de tarefas e links na seção 0. Use uma sessão nova e clique em **Ambiente de execução → Executar tudo**. A primeira execução baixa bibliotecas e embeddings; aguarde a conclusão e confira se alguma célula apresentou erro.
 5. Confira respostas, chamadas de ferramentas, guardrails e métricas. Escreva a conclusão (até 15 linhas) com um resultado medido e uma melhoria fundamentada.
 6. Salve o notebook COM as saídas, baixe o JSON gerado e atualize este README com números, interpretação e capturas reais. Os resultados do Colab não atualizam automaticamente os arquivos do seu computador.
 7. Grave um vídeo de até 3 minutos com ambos se apresentando no início. Atualize `7_demo_video_url.txt` e a certificação. Entregue ZIP com os sete itens do briefing até 19/11/2026, 23h59.
