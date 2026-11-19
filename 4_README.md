@@ -18,6 +18,11 @@ Implementação nova preparada. Execução com Ollama Cloud, métricas RAGAS, pr
 6. Salve o notebook COM as saídas, baixe o JSON gerado e atualize este README com números, interpretação e capturas reais. Os resultados do Colab não atualizam automaticamente os arquivos do seu computador.
 7. Grave um vídeo de até 3 minutos com ambos se apresentando no início. Atualize `7_demo_video_url.txt` e a certificação. Entregue ZIP com os sete itens do briefing até 19/11/2026, 23h59.
 
+
+### Erro `torchvision::nms does not exist`
+
+A instalação remove `torchvision`, uma dependência visual opcional que este projeto de texto não usa. Se o erro já apareceu na sessão atual, execute uma célula com `%pip uninstall -y torchvision`, reinicie a sessão pelo menu **Ambiente de execução** e depois execute tudo novamente. Reiniciar limpa os módulos que falharam; confira se o ZIP continua em `/content`.
+
 ## Fluxo
 
 ```mermaid
