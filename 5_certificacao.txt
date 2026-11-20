@@ -1,7 +1,8 @@
 Rodger Costa Rios — RM 571438
 Kenichi Caio Yamamoto — RM 569815
 Turma: 1CCPK
-Notebook executado: PENDENTE
-Tela final: PENDENTE
+Notebook: https://github.com/rodgercr/Citizen-AI-PAI/blob/main/1_Notebook_GS2026_2.ipynb
 Vídeo: PENDENTE
-Estado: desenvolvimento; não certificado como entrega final.
+Repositório: https://github.com/rodgercr/Citizen-AI-PAI
+Tela final: 2_base_documental/evidencias/tela_final.jpg (relatorio local).
+Estado: PENDENTE — vídeo não listado de até 3 minutos

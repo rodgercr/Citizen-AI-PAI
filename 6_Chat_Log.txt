@@ -8,3 +8,7 @@ Resultados RAGAS: não inventados; arquivo inicial sinaliza ausência de execuç
 Decisões: manter publicações antigas e novas, priorizar vigência, calcular horários com código, limitar agente a seis ferramentas, evitar exposição de chave e dados pessoais.
 Participação humana pendente: revisão substantiva dos documentos, revisão das respostas de referência, entendimento e revisão das decisões, execução no Colab, análise dos resultados e vídeo.
 Este arquivo é um resumo fiel do uso de IA nesta construção, não uma transcrição integral da conversa. Acrescentar os próximos usos e as decisões humanas reais.
+
+Adaptacao local: usuario solicitou explicitamente execucao local apos erro HTTP 402 da Ollama Cloud. Testado qwen3:4b, que mostrou raciocinio indesejado na resposta; substituido por llama3.2:3b instalado no computador. Metricas devem ser reais e identificadas como obtidas com juiz local.
+
+Validacao final: modelo qwen2.5:7b local; duas rodadas RAGAS reais. A tentativa de corrigir citacoes nao melhorou a relevancia; resultados mantidos e limitacoes explicadas. O usuario informou divisao de 50% das tarefas para cada integrante. Video ainda pendente. Interface testada no navegador e 29 testes locais aprovados.
